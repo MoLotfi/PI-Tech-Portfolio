@@ -1,0 +1,507 @@
+
+@media(min-width:350px) and (max-width:767px){
+	#particles-js{
+		display: none;
+	}
+}
+
+
+@media(min-width:576px){ /* the menu button in mobile */
+    .menu .item.button{
+        display:inline-block; 
+        width: 100px;
+        order:1;
+}
+}
+
+@media(min-width:825px){ /* the menu bar in that media*/
+	.toggle.hum{
+		display: none;
+	}
+	.menu .item:not(.button){
+		display: block;
+		width: auto;
+		order:1;
+	}
+	.menu .item{
+		margin:1px 1px;
+	}
+	 .menu .item.button{
+	background-color: #FFD700;
+	border-radius: 10em;
+	box-shadow: 5px #000;
+	border: 1px solid #FFF;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+
+}
+}
+/* Start home background*/
+@media(min-width:350px) and (max-width:767px){
+	.top-page{
+		background: url("../images/trial.jpg") no-repeat center top / cover;
+	}
+}
+@media (min-width: 350px) and (max-width:479px){
+	.top-page{
+		height: 120vh;
+	}
+}
+@media (min-width: 480px) and (max-width:528px){
+	.top-page{
+		height: 140vh;
+	}
+}
+@media (min-width: 529px) and (max-width: 767px){
+	.top-page{
+		height: 130vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 844px){
+	.top-page{
+		height: 100vh;
+	}
+}
+@media (min-width: 845px) and (max-width: 933px){
+	.top-page{
+		height: 100vh;
+	}
+}
+/* End home background*/
+
+/* start our tilte*/
+@media(min-width:350px) and (max-width:479px){
+	.top-page .our-name {
+		padding-bottom: 5px;
+		margin-top: 5px;
+		color: #FFF;
+	}
+}
+@media(min-width:480px) and (max-width:767px){
+	.top-page .our-name {
+		font: 400 60px/0.8 'Great Vibes', Helvetica, sans-serif;
+		padding-bottom: 15px;
+		margin-top: 50px;
+		color: #FFF;
+	}
+}
+/* End our tilte*/
+
+/* start the type words*/
+@media(min-width:350px) and (max-width:479px){
+	.top-page .type{
+		font-size:16px;
+		color: #FFF;
+}
+}
+@media(min-width:480px) and (max-width:767px){
+	.top-page .type{
+		font-size:18px;
+		color: #FFF;
+}
+}
+@media (min-width:768px) and (max-width:992px){
+	.top-page .type{
+		font-size:20px;
+}
+}
+/* End the type words*/
+
+/*start the intro */
+@media(min-width:350px) and (max-width:479px){
+	.top-page  .ty-intro{	
+		font-size: 16px;
+		color: #FFF;
+	}
+}
+@media(min-width:480px) and (max-width:767px){
+	.top-page  .ty-intro{
+		color: #FFF;
+	}
+}
+@media (min-width:768px) and (max-width:992px) {
+	.top-page 	.ty-intro{	
+	font-size:20px;
+	margin-top: 20px;
+	margin-left: 12vw;
+	
+}
+}
+/*end intro*/
+
+/* start the long para in the home page*/
+@media(min-width:350px) and (max-width:479px){
+	.top-page .long-paragraph{
+		margin-top: 5px;
+		font-size: 15px;
+		color: #FFF;
+	}	
+}
+
+@media(min-width:480px) and (max-width:529px){
+	.top-page .long-paragraph{
+		margin-top: 5px;
+		color: #FFF;
+	}
+}
+@media(min-width:530px) and (max-width:767px){
+	.top-page .long-paragraph{
+		margin-top: 5px;
+		font-size: 15px;
+		color: #FFF;
+	}	
+}
+@media (min-width:768px) and (max-width:992px) {
+	.top-page .long-paragraph{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+}
+/* end the long para in the home page*/
+
+/*start btns*/
+@media(min-width:350px) and (max-width:479px){
+	.top-page  .btn{
+		margin-top: 5px;
+		padding: 3px 3px;
+		font-size:15px;
+		color: #FFF;
+		
+	}
+}
+@media(min-width:480px) and (max-width:529px){
+	.top-page  .btn{
+		margin-top: 5px;
+		font-size:15px;
+		padding: 7px 7px;
+		color: #FFF;
+}
+}
+@media(min-width:530px) and (max-width:767px){
+	.top-page  .btn{
+		margin-top: 0px;
+		font-size:15px;
+		padding: 7px 7px;
+		color: #FFF;
+}
+}
+@media (min-width:768px) and (max-width:992px) {
+	.top-page  .btn{
+		margin-top: 30px;
+		font-size:15px;
+		padding: 7px 7px;
+}	
+}
+/*end btns*/
+
+/*start skills section*/
+@media(min-width:350px) and (max-width:767px){
+	.skills{
+		background-color: #fe8898;
+	}
+}
+
+/*Start About Us*/
+@media(min-width:350px) and (max-width:767px){
+	.about-us{
+		 background: url("../images/pink.jpg") no-repeat center top / cover;
+	}
+}
+/*End About us*/
+
+/*start stand pic in services page*/
+@media(min-width:350px) and (max-width:767px){
+	.service{
+		background:none;
+		 background-color:#f15886;
+	}
+}
+
+@media(max-width:767px){
+	.stand{
+		left: 0px;
+		width: 250px;
+}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.stand{
+		left:2vw;
+	}
+}
+/*end start pic in services page*/
+
+/*start services title*/
+
+@media(max-width:767px){
+	.service h2{
+		font-size: 33px;
+		left:55px;
+}
+
+}
+@media(max-width:499px){
+	.service h2{
+		width:60%;
+	left:32vw;
+	}
+}
+/* end services title*/
+
+/* start clean code block in services page*/
+@media(min-width:350px) and (max-width:399px){
+	.clean-code{
+		width: 300px;
+		left: 12%;
+		top:25%;
+	}
+}
+@media(min-width:400px) and (max-width:479px){
+	.clean-code{
+		width: 300px;
+		left: 20%;
+		top:25%;
+	}
+}
+@media(min-width:480px) and (max-width: 767px )  {
+	.clean-code{
+		width: 290px;
+		left: 4%;
+		top:25%;
+	}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.clean-code{
+		left: 25vw;	
+	}
+}
+/* end clean code block in services page*/
+
+/* start responsive block in services page*/
+@media(min-width:350px) and (max-width:399px){
+	.responsive{
+		width: 300px;
+		left: 12%;
+		top:42%;
+	}
+}
+@media(min-width:400px) and (max-width:479px){
+	.responsive{
+		width: 300px;
+		left: 20%;
+		top:42%;
+	}
+}
+@media(min-width:480px) and (max-width: 767px ){
+	.responsive{
+		width: 290px;
+		top:42%;
+		left: 42%;
+	}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.responsive{
+		left: 25vw;
+	}
+}
+/* end responsive block in services page*/
+
+/*start user friend block  in services page*/
+
+@media(min-width:350px) and (max-width:399px){
+	.user-friend{
+		width: 300px;
+		left: 12%;
+		top:59%;
+	}
+}
+@media(min-width:400px) and (max-width:479px){
+	.user-friend{
+		width: 300px;
+		left: 20%;
+		top:59%;
+	}
+}
+@media(min-width:480px) and (max-width: 767px ){
+	.user-friend{
+		width: 290px;
+		top: 63%;
+		left: 5%;
+	}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.user-friend{
+		left: 25vw;		
+	}
+}
+/* end user  block  in services page*/
+
+/* start word press block in services page*/
+@media(min-width:350px) and (max-width:399px){
+	.wordpress{
+		width: 300px;
+		left: 12%;
+		top:78%;
+	}
+}
+@media(min-width:400px) and (max-width:479px){
+	.wordpress{
+		width: 300px;
+		left: 20%;
+		top:78%;
+	}
+}
+@media(min-width:480px) and (max-width: 767px ){
+	.wordpress{
+		left:15%;
+	}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.wordpress{	
+		left: 25vw;	
+	}
+}
+/* end word press block in services page*/
+
+/*start code pic in services page*/
+@media(min-width:350px) and (max-width:479px){
+	.code{
+		display: none;
+	}
+}
+@media(min-width:480px) and (max-width:767px){
+	.code{
+		top:200px;
+		left: 52%;
+	}
+}
+
+@media(min-width:768px) and (max-width:1250px){
+	.code{
+		right:80vw;
+	}
+}
+/*end code pic in services page*/
+
+/*start desgin pic in services page*/
+@media(min-width:350px) and (max-width:479px){
+	.design{
+		display: none;
+	}
+}
+@media(min-width:480px) and (max-width:767px){
+	.design{
+		top: 390px;
+		left: 0%;
+	}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.design{
+		left: 2vw;
+		top:58vh;	
+	}
+}
+/* end desgin pic in services page*/
+
+/*start sit pic in services page*/
+@media(min-width:350px) and (max-width:479px){
+	.sit{
+		display: none;
+	}
+}
+@media(min-width:480px) and (max-width:579px){
+	
+	.sit{
+		top: 650px;
+		left: 45%;
+		width: 300px;
+	}
+}
+@media(min-width:580px) and (max-width:650px){
+	.sit{
+		top: 650px;
+		left: 52%;
+		width: 300px;
+	}
+}
+
+@media(min-width:651px) and (max-width:767px){
+	
+	.sit{
+		top: 650px;
+		left: 55%;
+		width: 300px;
+	}
+}
+@media(min-width:768px) and (max-width:1250px){
+	.sit{
+		width:300px;
+		right: 60vw;	
+	}
+}
+/*end sit pic in services page*/
+
+/*start h3 in service page */
+@media(min-width:350px) and (max-width:479px){
+	.track h3{
+		font-size: 30px;
+		left: 20%;
+	}
+}
+@media(min-width:480px) and (max-width:767px){
+	.track h3{
+		font-size: 40px;
+		left: 15%;
+	}
+}
+/* end h3 in services page*/
+
+/* start para in serivices page */
+@media(min-width:350px) and (max-width:479px){
+	.track p{
+		top:33%;
+	}
+}
+@media(min-width:480px) and (max-width:767px){
+	.track p{
+		top:35%;
+	}
+}
+/* end para in services page*/
+
+/* start contact h2 in footer*/
+@media(min-width:350px) and (max-width:767px){
+	.footer {
+		 background: url("../images/pink.jpg") no-repeat center top / cover;
+	}
+}
+@media (max-width:992px){
+    .footer  .contact-us h2{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footer  .contact-us ul li{
+        margin-bottom: 5px;		
+    }
+    }
+/* end contact h2 in footer*/
+
+/*start our button to top*/
+@media(min-width:350px) and (max-width:479px){
+	#up{
+		left: 85vw;
+	}
+}
+@media (min-width:480px) and (max-width:767px){
+	#up{
+		left: 87vw;
+	}
+}
+@media (min-width:767px) and (max-width:1200px){
+	#up{
+		left: 92vw;
+	}
+}
+/*end our btn to top*/
+
